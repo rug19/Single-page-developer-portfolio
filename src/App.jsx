@@ -1,10 +1,12 @@
+import Header from "./components/Header/Header";
+import Photo from "./components/Photo/Photo";
 import "./App.css";
 
 function App() {
   return (
     <>
-      <h1>Hello world</h1>
-      <button className="bg-blue-500 px-2 rounded">submit</button>
+      <Photo></Photo>
+      <Header></Header>
     </>
   );
 }
