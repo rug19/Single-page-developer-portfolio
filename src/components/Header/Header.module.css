@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.3rem;
+  gap: 1.3rem;
+}
+
+.titulo {
+  color: white;
+  font-family: "Space Grotesk";
+  font-size: 1.5rem;
+  line-height: 32px; 
+  letter-spacing: -0.333px;
+}
+
+.iconsContainer{
+    display: flex;
+    gap: 2.2rem;
+}
+
+.box {
+width: 174px;
+height: 383px;
+left: 1;
+position: fixed;
+top: 0;
+z-index: -1;
+
+
+
+}
+
+.photo{
+width: 174.207px;
+z-index: 1;
+
+}
