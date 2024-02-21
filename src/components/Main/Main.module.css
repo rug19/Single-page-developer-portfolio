@@ -11,7 +11,17 @@
   position: fixed;
   top: 0;
   z-index: -1;
-  background: linear-gradient(180deg, rgba(36, 36, 36, 0) 0.65%, #242424 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(19, 19, 19, 0.8) 0.65%,
+    #181818 100%
+  );
+}
+
+.centeredContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .photo {
@@ -20,13 +30,24 @@
 }
 
 .titulo {
-  width: 343px;
+  width: 298px;
   color: var(--White, #fff);
   text-align: center;
-  font-family: "Space Grotesk";
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 40px; /* 100% */
+  font-size: 2.2rem;
+  line-height: 40px;
+  letter-spacing: -1.136px;
+  margin-top: 2rem;
+}
+
+.upperTitulo {
+  letter-spacing: 0.864px;
+}
+
+.paragraphMain{
+  width: 298px;
+  color: var(--White, #fff);
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 40px;
   letter-spacing: -1.136px;
 }
