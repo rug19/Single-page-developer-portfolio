@@ -30,24 +30,38 @@
 }
 
 .titulo {
-  width: 298px;
   color: var(--White, #fff);
   text-align: center;
   font-size: 2.2rem;
   line-height: 40px;
-  letter-spacing: -1.136px;
+  letter-spacing: -0.136px;
   margin-top: 2rem;
+  font-family: "Space Grotesk";
+  font-weight: 500;
 }
 
 .upperTitulo {
   letter-spacing: 0.864px;
 }
 
-.paragraphMain{
-  width: 298px;
+.paragraphMain {
+  width: 339px;
   color: var(--White, #fff);
   text-align: center;
-  font-size: 1.2rem;
-  line-height: 40px;
-  letter-spacing: -1.136px;
+  line-height: 26px;
+  letter-spacing: -0.136px;
+  margin-top: 1rem;
+  font-family: "Space Grotesk";
+  font-weight: 100;
+  font-size: 16px;
+}
+
+.subTitle {
+  color: var(--White, #fff);
+  text-align: center;
+  letter-spacing: 3.864px;
+  margin-top: 1rem;
+  font-family: "Space Grotesk";
+  font-weight: 100;
+  font-size: 15px;
 }
